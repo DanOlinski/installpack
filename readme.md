@@ -10,12 +10,12 @@
 - restart terminal
 - run the file: `./installpack2.sh`
 
-# Finish setting up Postgress
-- type; `sudo -u postgres psql postgres`
-- set a password for a database after typing psql(as above); `\password postgres` (press enter and type your password. suggested pw = pass)
+- Finish setting up Postgress
+    - type; `sudo -u postgres psql postgres`
+    - set a password for a database after typing psql(as above); `\password postgres` (press enter and type your password. suggested pw = pass)
 
 # Check if everything was installed
-- apache: sudo systemctl status apache2
+- apache: `sudo systemctl status apache2`
 - node:
     - `nvm -v`
     - `node -v` (to change node to another version: nvm use v16)
