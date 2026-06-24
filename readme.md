@@ -31,5 +31,5 @@
     - add permission to all IP adresses to access the site: 0.0.0.0/0
     - find the served website by navigating to a URL that looks like this: http://3.135.190.22:8001/
 
-- to start an ExpressJs server run the following, from the src folder; `pm2 start index.js` or `pm2 start server.js`
+- to start an ExpressJs server run the following, from the src folder; `pm2 start index.js` or `pm2 start server.js` (`pm2 stop all`)
 - to start a react app; `screen -d -m npm start`
