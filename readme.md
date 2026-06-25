@@ -7,8 +7,11 @@
     - go into repo folder 
     - run the command: `chmod u+x installpack1.sh` and `chmod u+x installpack2.sh`
 - run the file: `./installpack1.sh`
-- restart terminal
+- restart terminal**********
 - run the file: `./installpack2.sh`
+- there might be an error in the end of the installation due to conflicting packages in docker, if so run the code below
+`sudo apt-get remove docker-compose-plugin`
+`sudo apt-get install -f`
 
 - Finish setting up Postgress
     - type; `sudo -u postgres psql postgres`
