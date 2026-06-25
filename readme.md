@@ -12,6 +12,7 @@
 - there might be an error in the end of the installation due to conflicting packages in docker, if so run the code below
 `sudo apt-get remove docker-compose-plugin`
 `sudo apt-get install -f`
+`apt install docker-compose`
 
 - Finish setting up Postgress
     - type; `sudo -u postgres psql postgres`
